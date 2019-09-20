@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
+    <link rel='stlyesheet' type='text/css' href='assets/css/style.css'>
+    
+</head>
+<body>
+    <div class='container'>
+        <div class='row'>
+            <h1>Crystal Collectors!</h1>            
+        </div>
+        <br>
+        <div class='row'>
+            <p>You will be given a random number at the start of the game</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystals is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+        <br>
+        <div class='row'>
+            <div class='goal'>
+                <h2>Score to reach</h2>
+            </div>
+            <div class='wins-loses'>
+                <div class='row'>
+                    <h3>Wins: <span id='winCount'>0</span></h3>
+                <div class='row'>
+                    <h4>Losses: <span id='ossCount'>0</span></h4>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class='row'>
+            <h5>Target Number: <span id='goalScore'></span></h5>
+        </div>
+        <div class='row'>
+            <h6>Total: <span id='totalPoints'></span></h6>
+        </div>
+    </div>
+    <div class='container'>
+        <p id='alert'></p>
+    </div>
+    <div class='container'>
+        <div class='btn'>
+            <button class='gem1'>
+                <p class='pointValue1'></p>
+                <img class='crystalImage' src='assets/images/gem1.png'>
+            </button>
+            <button class='gem2'>
+                <p class='pointValue2'></p>
+                <img class='crystalImage' src='assets/images/gem2.png'>
+            </button>
+            <button class='gem3'>
+                <p class='pointValue3'></p>
+                <img class='crystalImage' src='assets/images/gem3.png'>
+            </button>
+            <button class='gem4'>
+                <p class='pointValue4'></p>
+                <img class='crystalImage' src='assets/images/gem4.png'>
+            </button>
+        </div>
+    </div>
+    <script src='assets/javascript/game.js'></script>    
+    </body>
+</html>

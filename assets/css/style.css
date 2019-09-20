@@ -1,0 +1,21 @@
+html {
+    background-color: aqua;
+}
+
+.wins-loses {
+    margin-left: 10px;
+    background-color: rgb(0, 119, 255);
+}
+
+.goal {
+    background-color: rgb(3, 121, 3);
+    color: black;
+}
+.container {
+    margin: auto;
+}
+.crystalImage {
+    height: 100px;
+    width: 100px;
+    outline: none;
+}
