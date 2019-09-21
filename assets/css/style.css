@@ -3,7 +3,6 @@ body {
 }
 
 .wins-loses {
-    margin-left: 10px;
     background-color: rgb(0, 119, 255);
 }
 
@@ -21,7 +20,21 @@ body {
 }
 h1 {
     background-color: orange;
+    color: white;
+    padding: 10px;
 }
 h2 {
     background-color: tan;
+}
+h5 {
+    background-color: teal;
+    height: 25px;
+}
+p {
+    background-color: pink;
 }   
+@media only screen and (max-width: 840px) {
+    .container {
+        width: 100%;
+        font-size: 40px;
+    }

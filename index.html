@@ -3,8 +3,8 @@
 <head>
     <link rel='stylesheet' type='text/css' href='/assets/css/reset.css'>
     <link rel="stylesheet" href="assets/css/style.css" />    
-    
-
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <title>Crystal Collector</title>
 </head>
 <body>
     <div class='container'>
@@ -12,10 +12,10 @@
             <h1>Crystal Collectors!</h1>            
         </div>
         <br>
-        <div class='row'>
-            <p>You will be given a random number at the start of the game</p>
-            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <div class='row1'>
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+            You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
             <p>The value of each crystals is hidden from you until you click on it.</p>
             <p>Each time when the game starts, the game will change the values of each crystal.</p>
         </div>
@@ -28,7 +28,7 @@
                 <div class='row'>
                     <h3>Wins: <span id='winCount'>0</span></h3>
                 <div class='row'>
-                    <h4>Losses: <span id='lossCount'>0</span></h4>
+                    <h3>Losses: <span id='lossCount'>0</span></h3>
                 </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
             <h5>Target Number: <span id='goalScore'></span></h5>
         </div>
         <div class='row'>
-            <h6>Total: <span id='totalPoints'></span></h6>
+            <h5>Total: <span id='totalPoints'></span></h5>
         </div>
     </div>
     <div class='container'>
