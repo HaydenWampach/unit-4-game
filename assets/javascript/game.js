@@ -38,25 +38,25 @@ $(document).ready(function() {
     //determine if user wins or losses
     $('.gem1').on('click', function() {
         userTotalPoints = eval(userTotalPoints) + eval(gem1);
-        $('#totalpoints').text(userTotalPoints);
+        $('#totalPoints').text(userTotalPoints);
         determineWinLoss();
     })
 
     $('.gem2').on('click', function() {
         userTotalPoints = eval(userTotalPoints) + eval(gem2);
-        $('#totalpoints').text(userTotalPoints);
+        $('#totalPoints').text(userTotalPoints);
         determineWinLoss();
     })
 
     $('.gem3').on('click', function() {
         userTotalPoints = eval(userTotalPoints) + eval(gem3);
-        $('#totalpoints').text(userTotalPoints);
+        $('#totalPoints').text(userTotalPoints);
         determineWinLoss();
     })
 
     $('.gem4').on('click', function() {
         userTotalPoints = eval(userTotalPoints) + eval(gem4);
-        $('#totalpoints').text(userTotalPoints);
+        $('#totalPoints').text(userTotalPoints);
         determineWinLoss();
     })
 
