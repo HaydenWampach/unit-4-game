@@ -1,4 +1,4 @@
-html {
+body {
     background-color: aqua;
 }
 
@@ -19,3 +19,9 @@ html {
     width: 100px;
     outline: none;
 }
+h1 {
+    background-color: orange;
+}
+h2 {
+    background-color: tan;
+}   
